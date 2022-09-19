@@ -1,3 +1,16 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 P,H1 {
     text-align: center;
+}
+
+li:hover {
+background-color: aquamarine;
+}
+
+li:active{
+font-family:'Courier New', Courier, monospace;
+text-decoration: underline;
 }
