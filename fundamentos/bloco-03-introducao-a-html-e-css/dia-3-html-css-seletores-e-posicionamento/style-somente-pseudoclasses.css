@@ -2,7 +2,24 @@
 div:hover{
     border-style: solid;
 }
+.azul{
+    background-color: aqua;
+}
 
+.verde{
+    background-color: green;
+}
+
+.pink{
+    background-color: palevioletred;
+}
+
+.azul-escuro{
+    background-color: rgb(3, 3, 85);
+}
+.amarelo{
+    background-color: yellow;
+}
 
 
 
