@@ -21,7 +21,31 @@ div:hover{
     background-color: yellow;
 }
 
+.primaria{
+    font-style: italic;
+    color: beige;
+}
 
+.secundaria{
+    font-style:normal;
+    text-decoration: line-through;
+    color: greenyellow;
+}
+
+.complementar{
+font-style: oblique;
+color: pink;
+}
+
+.escura {
+font-style: bold;
+color: aquamarine;
+}
+
+.clara{
+text-decoration: underline;
+color: grey;
+}
 
 
 
