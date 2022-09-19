@@ -6,7 +6,9 @@
     border: 2px solid red;
   }
 
-   
+/*Position absolute: serve pra fixar algo independente da rolagem da tela*/
+/*z-index: 5 é a camada mais acima */
+
   .goomba {
     width: 200px;
     position: absolute;  
@@ -17,18 +19,17 @@
   
   .baloon {
     position: absolute;
-    left: 100px;
+    left: 300px;
     top: 150px;
     width: 300px;
     z-index: 3;
-  
-  }
+    }
   
   .speech {
     font-size: 20px;
     position: absolute;
     bottom: 320px;
-    left: 150px;
+    left: 330px;
     z-index: 4;
     /* left: 430px; */
   }
@@ -36,11 +37,10 @@
   .bowser {
     width: 200px;
     bottom: 100px;
-    left: 400px;
+    left: 600px;
     border: 2px solid blue;
     position: absolute;
-    
-    
+      
   }
 
 /* 1 - Posicione o Mário acima do Goomba.
