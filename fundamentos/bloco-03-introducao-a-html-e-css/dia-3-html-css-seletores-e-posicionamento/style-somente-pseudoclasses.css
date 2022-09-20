@@ -33,8 +33,9 @@ div:hover{
 }
 
 .complementar{
-font-style: oblique;
+font-style: italic;
 color: pink;
+font-size:30px;
 }
 
 .escura {
@@ -43,6 +44,7 @@ color: aquamarine;
 }
 
 .clara{
+font-style: italic;
 text-decoration: underline;
 color: grey;
 }
