@@ -49,7 +49,7 @@ console.log('Valor menor ou igual a 20');
 
 // 5) Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
-let numbers2 = [5, 9, 3, 19, 70, 100, 8, 2, 35, 27];
+// let numbers2 = [5, 9, 3, 19, 70, 100, 8, 2, 35, 27];
 
 let maiorValor = 0;
 
@@ -59,3 +59,31 @@ for (let index = 0; index < numbers2.length; index += 1) {
 }
 }
 console.log(maiorValor)
+
+// 6) Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+
+let numeros = [5, 9, 3, 19, 70, 100, 8, 2, 35, 27];
+
+let numeroImpar = [];
+
+for (let index = 0; index < numeros.length; index += 1) {
+    if (numeros[index] % 2!==0){
+numeroImpar.push(numeros[index])
+
+}
+}
+console.log(numeroImpar.length)
+
+// 7) Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+
+let numerosL = [5, 1, 9, 3, 19, 70, 100, 8, 2, 35, 27];
+
+let menorValor = numerosL [0];
+
+for (let index = 0; index < numerosL.length; index += 1) {
+    if (numerosL[index] < menorValor) {
+    menorValor = numerosL[index];
+}
+}
+console.log(menorValor)
