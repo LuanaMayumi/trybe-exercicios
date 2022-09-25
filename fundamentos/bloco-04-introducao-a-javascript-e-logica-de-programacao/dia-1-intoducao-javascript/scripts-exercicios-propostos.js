@@ -170,3 +170,32 @@ if (num1 % 2===0 || num2 % 2===0 || num3 % 2===0) {
 } 
 console.log(numeroPar);
 
+//EXERCICIO 9
+
+const numero1 = 16;
+const numero2 = 12;
+const numero3 = 10;
+
+let numeroImpar = false; //ja definido que a os numeros são impares e a variável é false
+
+if (numero1 % 2!==0 || numero2 % 2!==0 || numero3 % 2!==0) {
+  numeroImpar = true; //muda a variável para true (se fosse const nao mudaria)
+} 
+console.log(numeroImpar);
+
+//EXERCICIO 10
+
+const custoProduto = -27;
+const valorVenda = 52;
+const impostoSobreOCusto = 0.2;
+
+let valorTotalDoCusto = custoProduto + (custoProduto * impostoSobreOCusto) // let impostoSobreOCusto = 20%
+let lucro = valorVenda - valorTotalDoCusto
+let vendas = 1000;
+
+if (custoProduto < 0 && valorVenda <0) {
+    console.log('O valor do lucro é de ' + lucro * vendas)
+}
+else {
+    console.log('erro')  
+}

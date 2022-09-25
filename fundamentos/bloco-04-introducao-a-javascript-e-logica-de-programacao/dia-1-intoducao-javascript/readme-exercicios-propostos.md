@@ -74,6 +74,8 @@ O lucro de um produto é o resultado da subtração do valor de venda pelo custo
 
 valorCustoTotal = valorCusto + impostoSobreOCusto;
 lucro = valorVenda - valorCustoTotal (lucro de um produto);
+
+11) 
 Utilize if/else para fazer um programa que, dado um salário bruto, calcule o líquido a ser recebido.
 Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR.
 
