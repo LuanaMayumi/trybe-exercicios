@@ -29,13 +29,18 @@ if (valor1 > valor2) {
     console.log('O valor 2 é maior');
 }
 
+//EXERCICIO 3
+const valorUm = 2394;
+const valorDois = 284;
+const valorTres = 0;
 
-
-
-
-
-
-
+if (valorUm > valorDois && valorUm > valorTres) {
+    console.log('O valor ' + valorUm + ' é o maior!')
+    }
+else if (valorDois > valorUm && valorDois > valorTres) {
+    console.log('O valor ' + valorDois + ' é o maior!')
+}
+else console.log('O valor ' + valorTres + ' é o maior!')
 
 
 
