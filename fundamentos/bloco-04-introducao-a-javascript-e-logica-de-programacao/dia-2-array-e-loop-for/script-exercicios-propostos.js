@@ -29,7 +29,7 @@ console.log(SomaNumbers1);
 // 3 - Calcule e imprima a média aritmética dos valores contidos no array;
 // A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
 
-let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let somaNumbers2 = 0;
 
@@ -38,3 +38,24 @@ for (let index = 0; index < numbers2.length; index += 1) {
 }
 let mediaAritmetica = somaNumbers2 / numbers2.length;
 console.log(mediaAritmetica)
+
+//EXERCICIO 4
+// Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”;
+
+if (mediaAritmetica > 20) {
+    console.log('Valor maior que 20');
+} else 
+console.log('Valor menor ou igual a 20');
+
+// 5) Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+
+let numbers2 = [5, 9, 3, 19, 70, 100, 8, 2, 35, 27];
+
+let maiorValor = 0;
+
+for (let index = 0; index < numbers2.length; index += 1) {
+    if (numbers2[index] > maiorValor){
+    maiorValor = numbers2[index];
+}
+}
+console.log(maiorValor)
