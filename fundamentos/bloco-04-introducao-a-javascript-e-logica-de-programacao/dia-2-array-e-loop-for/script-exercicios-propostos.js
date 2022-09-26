@@ -87,3 +87,18 @@ for (let index = 0; index < numerosL.length; index += 1) {
 }
 }
 console.log(menorValor)
+
+//8) Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+
+let array25 = [];
+
+for (let index = 1; index <= 25; index += 1) {
+    array25.push(index);
+}
+console.log(array25)
+
+//9) Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+
+for (let index = 0; index < array25.length; index += 1) {
+    console.log(array25[index] / 2)
+}
