@@ -12,3 +12,8 @@ function mudarOTexto(texto) {
     document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
   }
   changeBackground('colorBackDois');
+
+  function correctingText (text) {
+    document.getElementsByClassName('title')[0].innerText='Exercício - JavaScripit';
+  }
+  correctingText('text');
