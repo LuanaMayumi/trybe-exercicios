@@ -21,6 +21,39 @@ function mudarOTexto(texto) {
 
   //Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
 
-  function changingText(maiusculo) {
-    document.getElementsByTagName('p')
+// 1 - criar uma variável
+// 2 - capturamos a tag P na primeira posição
+// 3 - innerHtml: pega tudo que é estrutura HTML dentro de Paragrafo, dentro de posição 1 ('p')[0]
+// 4 - chamei a minha variável toUpperCase, reatribui usando a função toUpperCase
+
+  function changingtext() {
+let toUpperCase = document.getElementsByTagName('p')[0];
+toUpperCase.innerHTML = toUpperCase.innerHTML.toUpperCase();
   }
+  changingtext();
+
+  // function changingText(maiusculo) {
+
+  //   document.getElementsByTagName('p')[0].toUpperCase(); //Como colocar o paragrafo index 0 para toUpperCase?
+  // }
+  // changingText('maiusculo');
+
+  // 6) Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+
+// 1 - atribui uma variavel
+// 2 - capturei todas as tags P
+// 3 - usei um for pra percorrer
+
+function showingContent() {
+  let exibindoConteudo = document.getElementsByTagName('p');
+  for (let index = 0; index < exibindoConteudo.length; index += 1) {
+    console.log(exibindoConteudo[index].innerHTML);
+  }
+}
+showingContent();
+
+
+//   function showingContent(conteudo){
+// console.log(getElementsByTagName('p'));
+//   }
+//   showingContent('conteudo');
