@@ -1,5 +1,5 @@
 function mudarOTexto(texto) {
-  document.getElementsByTagName('p')[0].innerText='Texto de teste exercicio 1';
+  document.getElementsByTagName('p')[1].innerText='Onde eu me vejo daqui a dois anos?';
   } 
   mudarOTexto('texto');
 
@@ -17,3 +17,10 @@ function mudarOTexto(texto) {
     document.getElementsByClassName('title')[0].innerText='Exercício - JavaScripit';
   }
   correctingText('text');
+
+
+  //Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
+
+  function changingText(maiusculo) {
+    document.getElementsByTagName('p')
+  }
