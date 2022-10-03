@@ -19,7 +19,7 @@ function mudarOTexto(texto) {
   correctingText('text');
 
 
-  //Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
+  // 5 ) Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
 
 // 1 - criar uma variável
 // 2 - capturamos a tag P na primeira posição
@@ -32,11 +32,6 @@ toUpperCase.innerHTML = toUpperCase.innerHTML.toUpperCase();
   }
   changingtext();
 
-  // function changingText(maiusculo) {
-
-  //   document.getElementsByTagName('p')[0].toUpperCase(); //Como colocar o paragrafo index 0 para toUpperCase?
-  // }
-  // changingText('maiusculo');
 
   // 6) Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
 
@@ -52,8 +47,4 @@ function showingContent() {
 }
 showingContent();
 
-
-//   function showingContent(conteudo){
-// console.log(getElementsByTagName('p'));
-//   }
-//   showingContent('conteudo');
+  
