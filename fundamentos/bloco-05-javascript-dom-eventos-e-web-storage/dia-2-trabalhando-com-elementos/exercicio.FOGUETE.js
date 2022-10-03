@@ -74,7 +74,13 @@ for (let index = 0; numerosPorExtenso.length; index += 1) {
 
 // 9) Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
-let addingTagsH3 = document.createElement('h3');
+for (let index = 1; index <= 3 ; inde += 1){
+
+    let addingTagsH3 = document.createElement('h3');
+    addingTagsH3.innerHTML = 'Show ' + index;
+    elementMain.appendChild(addingTagsH3);
+}
 
 
-elementMain.appendChild(addingTagsH3)
+
+

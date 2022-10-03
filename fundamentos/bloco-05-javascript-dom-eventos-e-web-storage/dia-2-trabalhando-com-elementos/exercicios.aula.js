@@ -4,8 +4,8 @@ document.getElementById('elementoOndeVoceEsta')
 
 // 2 - Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 
-document.getElementById('elementoOndeVoceEsta').parentNode //acessando o pai
-document.getElementById('elementoOndeVoceEsta').parentNode.style.color='purple'; //adicionando uma cor
+let pai = elementoOndeVoceEsta.parentElement;
+pai.style.color = 'purple';
 
 // 3 - Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
 
@@ -23,7 +23,7 @@ document.getElementById('pai').firstChild //acessando o primeiro filho
 
 // 5 - Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
 
-document.getElementById('elementoOndeVoceEsta').firstChild
+const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
 
 // 6 - Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
 
@@ -34,5 +34,8 @@ console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
 
 // 7 - Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 
 // 8 - Agora acesse o terceiroFilho a partir de pai.
+
+const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
