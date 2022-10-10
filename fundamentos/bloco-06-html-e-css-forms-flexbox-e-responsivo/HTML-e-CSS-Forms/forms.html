@@ -18,22 +18,22 @@
 
   <form action="" method="get" id="formTrybe" class="form-data">
   
-  <section>
+  <section class="container">
     <label for="fullName" class="form-label" >Nome completo:</label>
     <input type="text" name="Nome completo" id="fullName" class="form-control" equired>
     <br>
   </section>
 
-  <section>
+  <section class="container">
     <label for="e-mail" class="form-label">E-mail:</label>
     <input type="text" name="E-mail" id="e-mail" class="form-control">
     <br>
 
   </section>
 
-  <section id="destino-preferido">
+  <section id="destino-preferido" class="container">
     <label for="destiny" class="form-label">Destino preferido:</label>
-    <select class="form-select form-select-sm" name="Destino" id="destiny">
+    <select class="form-select" name="Destino" id="destiny">
       <option value="destinos">Cidade</option>
       <option value="destinos">Campo</option>
       <option value="destinos">Praia</option>
@@ -44,8 +44,8 @@
     <br>
   </section>
 
-  <section id="pergunta-concurso">
-    <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
+  <section id="pergunta-concurso" class="container">
+    <h2 class="h2">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
     <br>
     <textarea id="textarea"  name="concurso" id="" cols="30" rows="5" maxlength="30" class="form-control" placeholder="Descreva sua resposta em até 500 caracteres"></textarea>
   </section>
@@ -53,27 +53,27 @@
   <br>
   <br>
 
-  <section>
+  <section class="container">
    <label for="bestDate" class="form-label">Qual a melhor data para sua viagem?</label>
-   <input type='date' name="melhor-data" id="bestDate">
+   <input class="date form-control" type='date' name="melhor-data" id="bestDate">
   </section>
    <br>
 
-  <section>
+  <section class="container">
     
     <label>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
 
-    <input type="radio" name="escolha-opção" id="yesOrNo1" value="">
+    <input type="radio" name="escolha-opção" id="yesOrNo1" class="form-check-label" value="">
     <label for="yesOrNo1">Sim</label>
 
-    <input type="radio" name="escolha-opção" id="yesOrNo2" value="">
+    <input type="radio" name="escolha-opção" id="yesOrNo2" class="form-check-label"value="" >
     <label for="yesOrNo2">Não</label>
 
   </section>
   <br>
 
-  <section>
-    <h3>Aceite o termo abaixo:</h3>
+  <section class="container">
+    <h3 class="h2">Aceite o termo abaixo:</h3>
     <br>
 
     <label for="agreement" class="form-label">
@@ -83,13 +83,13 @@
     <br>
   </section>
 
-  <section id="form-button" class="btn btn-primary"class="section-content">
-    <button id="button-submit" class= 'clear-btn' type="submit"class="btn btn-primary">Enviar formulário</button>
-    <button id="button-clean" class= 'clear-btn' type="reset">Limpar formulário </button>
+  <section id="form-button" class="section-content container">
+    <button class="btn btn-light btn btn-primary btn-sm" id="button-submit"  type="submit">Enviar formulário</button>
+    <button class="btn btn-light btn btn-primary btn-sm" id="button-clean" type="reset">Limpar formulário </button>
   </section>
   <br>
   <br>
-  <section>
+  <section class="container">
 <!-- elemento para copiar -->
     <a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
     <input type="text" id="input-text" class="form-control"/>
