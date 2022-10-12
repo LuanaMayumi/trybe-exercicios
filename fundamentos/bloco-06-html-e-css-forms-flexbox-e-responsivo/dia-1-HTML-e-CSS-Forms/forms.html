@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+   
+  <header id="header" class="form-header">
+    <img src="./imagem malas.jpg" alt="malas de viagem" class="img-malas-viagem">
+    <h1 class="h1">Formulário da TrybeTrip</h1>
+    <p>Preencha o formulário abaixo</p>
+  </header>
+
+  <form action="" method="get" id="formTrybe" class="form-data">
+  
+  <section class="container">
+    <label for="fullName" class="form-label" >Nome completo:</label>
+    <input type="text" name="Nome completo" id="fullName" class="form-control" equired>
+    <br>
+  </section>
+
+  <section class="container">
+    <label for="e-mail" class="form-label">E-mail:</label>
+    <input type="text" name="E-mail" id="e-mail" class="form-control">
+    <br>
+
+  </section>
+
+  <section id="destino-preferido" class="container">
+    <label for="destiny" class="form-label">Destino preferido:</label>
+    <select class="form-select" name="Destino" id="destiny">
+      <option value="destinos">Cidade</option>
+      <option value="destinos">Campo</option>
+      <option value="destinos">Praia</option>
+      <option value="destinos">Montanhas</option>
+      <option value="destinos"selected >Escolha uma das opções</option>
+    </select>
+    <br>
+    <br>
+  </section>
+
+  <section id="pergunta-concurso" class="container">
+    <h2 class="h2">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
+    <br>
+    <textarea id="textarea"  name="concurso" id="" cols="30" rows="5" maxlength="30" class="form-control" placeholder="Descreva sua resposta em até 500 caracteres"></textarea>
+  </section>
+
+  <br>
+  <br>
+
+  <section class="container">
+   <label for="bestDate" class="form-label">Qual a melhor data para sua viagem?</label>
+   <input class="date form-control" type='date' name="melhor-data" id="bestDate">
+  </section>
+   <br>
+
+  <section class="container">
+    
+    <label>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+
+    <input type="radio" name="escolha-opção" id="yesOrNo1" class="form-check-label" value="">
+    <label for="yesOrNo1">Sim</label>
+
+    <input type="radio" name="escolha-opção" id="yesOrNo2" class="form-check-label"value="" >
+    <label for="yesOrNo2">Não</label>
+
+  </section>
+  <br>
+
+  <section class="container">
+    <h3 class="h2">Aceite o termo abaixo:</h3>
+    <br>
+
+    <label for="agreement" class="form-label">
+    <input type="checkbox" id="agreement" name="agreement" required >Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+    </label>
+    <br>
+    <br>
+  </section>
+
+  <section id="form-button" class="section-content container">
+    <button class="btn btn-light btn btn-primary btn-sm" id="button-submit"  type="submit">Enviar formulário</button>
+    <button class="btn btn-light btn btn-primary btn-sm" id="button-clean" type="reset">Limpar formulário </button>
+  </section>
+  <br>
+  <br>
+  <section class="container">
+<!-- elemento para copiar -->
+    <a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
+    <input type="text" id="input-text" class="form-control"/>
+    <input type="checkbox" id="input-checkbox" />
+  </section>
+</form>
+</body>
+<script src="script.js"></script>
+</html>
