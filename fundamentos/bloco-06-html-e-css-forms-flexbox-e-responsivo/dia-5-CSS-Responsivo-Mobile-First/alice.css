@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* todos celulares, até ipad ablet */
+@media screen and (max-width: 768px){
+body {
+  background-color: #efe7d3;
+  margin-left: 5%;
+  font-family: 'Roboto Serif', serif;
+}
+/* pega os links Home...etc e tira do mobile */
+  nav {
+    display: none;
+    }
+
+  h1{
+    text-align: center;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+}
+
+
+/* todos os celulares, até ipad até telas pequenas / notebooks */
+@media screen and (min-width: 769px) and (max-width: 1200px){
+  body{
+    background-color: greenyellow;
+  }
+  
+
+}
+
+/* telas muito grandes e tv */
+@media screen and (min-width:1201px) {
+  body{
+    background-color:lightslategrey;
+  }
+}
+
