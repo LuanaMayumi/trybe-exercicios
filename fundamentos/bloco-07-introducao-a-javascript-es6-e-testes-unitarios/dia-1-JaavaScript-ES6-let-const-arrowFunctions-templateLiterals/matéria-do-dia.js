@@ -65,19 +65,19 @@ console.log('Primeira linha;\n' + 'Segunda linha;\n' + 'Terceira linha;\n');
 
 ////////////////// ARROW FUNCTION ////////////////////
 
-const printName = function () {
+const printName1 = function () {
   const myName = 'Lucas';
   return myName;
 };
 
-console.log(printName());
+console.log(printName1());
 
-const printName = () => {
+const printName2 = () => {
   const myName = 'Lucas';
   return myName;
 };
 
-console.log(printName());
+console.log(printName(2));
 
 const printName = () => 'Lucas';
 console.log(printName());
