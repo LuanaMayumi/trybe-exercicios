@@ -1,0 +1,48 @@
+.super-mario {
+    width: 100px;
+    /* right: 400px; */
+    z-index: 2;
+    position: absolute;
+    border: 2px solid red;
+  }
+
+/*Position absolute: serve pra fixar algo independente da rolagem da tela*/
+/*z-index: 5 é a camada mais acima */
+
+  .goomba {
+    width: 200px;
+    position: absolute;  
+    /* left: 100px; */
+    z-index: 1;
+    border: 2px solid orange;
+}
+  
+  .baloon {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 300px;
+    z-index: 3;
+    }
+  
+  .speech {
+    font-size: 20px;
+    position: absolute;
+    bottom: 320px;
+    left: 330px;
+    z-index: 4;
+    /* left: 430px; */
+  }
+  
+  .bowser {
+    width: 200px;
+    bottom: 100px;
+    left: 600px;
+    border: 2px solid blue;
+    position: absolute;
+      
+  }
+
+/* 1 - Posicione o Mário acima do Goomba.
+2 - Posicione a tag p para que fique dentro do balão de fala.
+3 - Posicione o balão para que se torne uma fala de Bowser. */

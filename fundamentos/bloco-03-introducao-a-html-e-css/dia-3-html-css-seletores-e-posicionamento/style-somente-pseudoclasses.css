@@ -1,0 +1,58 @@
+
+div:hover{
+    border-style: solid;
+}
+.azul{
+    background-color: aqua;
+}
+
+.verde{
+    background-color: green;
+}
+
+.pink{
+    background-color: palevioletred;
+}
+
+.azul-escuro{
+    background-color: rgb(3, 3, 85);
+}
+.amarelo{
+    background-color: yellow;
+}
+
+.primaria{
+    font-style: italic;
+    color: beige;
+}
+
+.secundaria{
+    font-style:normal;
+    text-decoration: line-through;
+    color: greenyellow;
+}
+
+.complementar{
+font-style: italic;
+color: pink;
+font-size:30px;
+}
+
+.escura {
+font-style: bold;
+color: aquamarine;
+}
+
+.clara{
+font-style: italic;
+text-decoration: underline;
+color: grey;
+}
+
+
+
+/* *1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda. */ 
+/* 2 - Faça cada div ter uma cor própria. */
+/* 3 - Estilize cada uma das tags h3. */
+/* 4 - Faça a terceira div ser maior que as demais. */
+/* 5 - Deixe as tags ímpares h3 com o texto em itálico. */
